@@ -81,4 +81,4 @@ def main(pwd, un):
 
 
 if __name__ == "__main__":
-    print(main("Zfy20040428", "20220604430441"))
+    print(main("你的密码", "你的账号"))
