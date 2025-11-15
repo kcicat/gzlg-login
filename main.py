@@ -45,7 +45,7 @@ def rsa_encrypt_base64(modulus_b64: str, exponent_b64: str, plaintext: str) -> s
     return base64.b64encode(cipher_bytes).decode("ascii")
 
 
-def main(pwd, un):
+def main(un, pwd):
     mm = rsa_encrypt_base64(modulus, exponent, pwd)
 
     # 验证码
@@ -81,4 +81,4 @@ def main(pwd, un):
 
 
 if __name__ == "__main__":
-    print(main("Zfy20040428", "20220604430441"))
+    print(main("你的账号", "你的密码"))
