@@ -1,5 +1,4 @@
 requests
 pycryptodome
 Pillow
-matplotlib
 ddddocr
