@@ -34,7 +34,7 @@ python main.py
 ### 主要代码片段：
 
 ```python:/Users/kcicat/project/python/广州理工教务系统/v1 快速原型/main.py
-mm = rsa_encrypt_base64(modulus, exponent, "Zfy20040428")
+mm = rsa_encrypt_base64(modulus, exponent, pwd)
 ocr_client = ddddocr.DdddOcr()
 ocr = ocr_client.classification(img)
 payload = { ... "yzm": ocr.lower(), ... }
